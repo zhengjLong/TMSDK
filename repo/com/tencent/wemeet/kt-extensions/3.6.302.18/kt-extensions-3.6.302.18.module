@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "kt-extensions",
+    "version": "3.6.302.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "kt-extensions-3.6.302.18.aar",
+          "url": "kt-extensions-3.6.302.18.aar",
+          "size": 57819,
+          "sha512": "70c25ce7fceffbb00f4ebba31bc62e8d4ea89fad67ed72dc51eb551d83387e6f806ea875cdea034479e49b863f7db31188e3cd5d7cf335cdec28cf715c8ca1c9",
+          "sha256": "42fa68e46aa1f40cc209eace676789c118ef9fe11d4b28bdefe009f792c6a016",
+          "sha1": "feb16f2381903296456d565b6d34100ad17e9c4b",
+          "md5": "e21ee80689ab00733a64fe19c7e4331f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference",
+          "version": {
+            "requires": "1.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kt-extensions-3.6.302.18.aar",
+          "url": "kt-extensions-3.6.302.18.aar",
+          "size": 57819,
+          "sha512": "70c25ce7fceffbb00f4ebba31bc62e8d4ea89fad67ed72dc51eb551d83387e6f806ea875cdea034479e49b863f7db31188e3cd5d7cf335cdec28cf715c8ca1c9",
+          "sha256": "42fa68e46aa1f40cc209eace676789c118ef9fe11d4b28bdefe009f792c6a016",
+          "sha1": "feb16f2381903296456d565b6d34100ad17e9c4b",
+          "md5": "e21ee80689ab00733a64fe19c7e4331f"
+        }
+      ]
+    }
+  ]
+}

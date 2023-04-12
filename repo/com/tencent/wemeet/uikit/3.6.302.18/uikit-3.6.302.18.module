@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "uikit",
+    "version": "3.6.302.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uikit-3.6.302.18.aar",
+          "url": "uikit-3.6.302.18.aar",
+          "size": 654910,
+          "sha512": "63a2a088c5708a3e38581824673e735612c3ed27f8b501c86e39747d0679af95232cf2ee68876e705eed437c06cacfb490fbfb5b98997b66530547675cbfb07a",
+          "sha256": "5a0e7344728b65490376b293801c29ea165e82c4a621419bdca8f6580a880be6",
+          "sha1": "b8b8f50a7676d7dcbbd833dd1105f8aa287de08f",
+          "md5": "912e29a35d128c44df919e615e4a5e60"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uikit-3.6.302.18.aar",
+          "url": "uikit-3.6.302.18.aar",
+          "size": 654910,
+          "sha512": "63a2a088c5708a3e38581824673e735612c3ed27f8b501c86e39747d0679af95232cf2ee68876e705eed437c06cacfb490fbfb5b98997b66530547675cbfb07a",
+          "sha256": "5a0e7344728b65490376b293801c29ea165e82c4a621419bdca8f6580a880be6",
+          "sha1": "b8b8f50a7676d7dcbbd833dd1105f8aa287de08f",
+          "md5": "912e29a35d128c44df919e615e4a5e60"
+        }
+      ]
+    }
+  ]
+}

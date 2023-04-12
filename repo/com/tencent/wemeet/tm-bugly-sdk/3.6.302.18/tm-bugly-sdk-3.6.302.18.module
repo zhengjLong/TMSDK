@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "tm-bugly-sdk",
+    "version": "3.6.302.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wemeet",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tm-bugly-sdk-3.6.302.18.aar",
+          "url": "tm-bugly-sdk-3.6.302.18.aar",
+          "size": 57197,
+          "sha512": "c3fcf7aee2aad778299e14289610c0602193c0eec172caebaf526704fd9b9a5392468c45048691515d8eab6469a726dc3ea54a7810974f213e8bbf7626fb7c2b",
+          "sha256": "03d0d8b419a030794e766c5fc78921a0de46afa38814a13c853c041e7a48c240",
+          "sha1": "5bad4e3e20078a501b2e191d39a20e04d4d45b03",
+          "md5": "dafc131aea2d0cd196524a63a7c39a10"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wemeet",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.tencent.bugly",
+          "module": "crashreport",
+          "version": {
+            "requires": "4.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tm-bugly-sdk-3.6.302.18.aar",
+          "url": "tm-bugly-sdk-3.6.302.18.aar",
+          "size": 57197,
+          "sha512": "c3fcf7aee2aad778299e14289610c0602193c0eec172caebaf526704fd9b9a5392468c45048691515d8eab6469a726dc3ea54a7810974f213e8bbf7626fb7c2b",
+          "sha256": "03d0d8b419a030794e766c5fc78921a0de46afa38814a13c853c041e7a48c240",
+          "sha1": "5bad4e3e20078a501b2e191d39a20e04d4d45b03",
+          "md5": "dafc131aea2d0cd196524a63a7c39a10"
+        }
+      ]
+    }
+  ]
+}

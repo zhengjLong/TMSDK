@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "system-private-api",
+    "version": "3.6.302.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "system-private-api-3.6.302.18.aar",
+          "url": "system-private-api-3.6.302.18.aar",
+          "size": 2987,
+          "sha512": "773a1fb68d3522ce981b9154f26bdac43896dce4546b0aa0054f91ac9107fa873a0bd4f3dfc682407e5b1b68c073cfc4e0f2a20cf1399afb3c70790d1e339c18",
+          "sha256": "960a40d1912f6775b585140c088a2e4c78fc874cd0c82ef3b77381a7a98391d9",
+          "sha1": "062371aeaca6e7007daeb6ea90f7c522046c8a83",
+          "md5": "36194918f865bac0c3ac5b91a4ca97e7"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "system-private-api-3.6.302.18.aar",
+          "url": "system-private-api-3.6.302.18.aar",
+          "size": 2987,
+          "sha512": "773a1fb68d3522ce981b9154f26bdac43896dce4546b0aa0054f91ac9107fa873a0bd4f3dfc682407e5b1b68c073cfc4e0f2a20cf1399afb3c70790d1e339c18",
+          "sha256": "960a40d1912f6775b585140c088a2e4c78fc874cd0c82ef3b77381a7a98391d9",
+          "sha1": "062371aeaca6e7007daeb6ea90f7c522046c8a83",
+          "md5": "36194918f865bac0c3ac5b91a4ca97e7"
+        }
+      ]
+    }
+  ]
+}

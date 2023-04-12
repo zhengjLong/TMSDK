@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "videoplayer",
+    "version": "3.6.302.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.liteav",
+          "module": "LiteAVSDK_Player",
+          "version": {
+            "requires": "9.3.10769"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "videoplayer-3.6.302.18.aar",
+          "url": "videoplayer-3.6.302.18.aar",
+          "size": 105359,
+          "sha512": "83230928a504a4bde97ce3a1e5a70db003afb6b79dda08bb34ce9100a266c2a9678d4c4e3e369a992ad4333ff51e9a050483963badcb2b14d7b3f732cb1b2580",
+          "sha256": "7e75eee74049920ec1941aaf5dd82fc82468d5e8805acb998e17b97106c8ceb3",
+          "sha1": "c71799e42c89b8c0888e91b8cea2371501d11252",
+          "md5": "8842a6694e4b67512a214e80e2a3fc6c"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.liteav",
+          "module": "LiteAVSDK_Player",
+          "version": {
+            "requires": "9.3.10769"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "videoplayer-3.6.302.18.aar",
+          "url": "videoplayer-3.6.302.18.aar",
+          "size": 105359,
+          "sha512": "83230928a504a4bde97ce3a1e5a70db003afb6b79dda08bb34ce9100a266c2a9678d4c4e3e369a992ad4333ff51e9a050483963badcb2b14d7b3f732cb1b2580",
+          "sha256": "7e75eee74049920ec1941aaf5dd82fc82468d5e8805acb998e17b97106c8ceb3",
+          "sha1": "c71799e42c89b8c0888e91b8cea2371501d11252",
+          "md5": "8842a6694e4b67512a214e80e2a3fc6c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "tcaptchawrapper",
+    "version": "3.6.302.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "websdk",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tcaptchawrapper-3.6.302.18.aar",
+          "url": "tcaptchawrapper-3.6.302.18.aar",
+          "size": 56822,
+          "sha512": "b18b31a23fc5c28c2054d52603c742fc87c9b55b4b90df954c62f961e5c5db75b928fe997fa12623ce1ed5715d8c92d653170b693e08e526597f666a2a0f9734",
+          "sha256": "a68f05beed0d57349486b91fa1e7fbf7e30eb486a624584f822225682b038d61",
+          "sha1": "8b413c600cf37ffcf0e82e68734130d1d16a10c1",
+          "md5": "16f899be2e65a4ac356d8e93a6073987"
+        }
+      ]
+    },
+    {
+      "name": "productReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet",
+          "module": "websdk",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tcaptchawrapper-3.6.302.18.aar",
+          "url": "tcaptchawrapper-3.6.302.18.aar",
+          "size": 56822,
+          "sha512": "b18b31a23fc5c28c2054d52603c742fc87c9b55b4b90df954c62f961e5c5db75b928fe997fa12623ce1ed5715d8c92d653170b693e08e526597f666a2a0f9734",
+          "sha256": "a68f05beed0d57349486b91fa1e7fbf7e30eb486a624584f822225682b038d61",
+          "sha1": "8b413c600cf37ffcf0e82e68734130d1d16a10c1",
+          "md5": "16f899be2e65a4ac356d8e93a6073987"
+        }
+      ]
+    }
+  ]
+}

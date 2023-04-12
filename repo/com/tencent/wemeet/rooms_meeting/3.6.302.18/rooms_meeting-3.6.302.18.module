@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "rooms_meeting",
+    "version": "3.6.302.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rooms_meeting-3.6.302.18.aar",
+          "url": "rooms_meeting-3.6.302.18.aar",
+          "size": 458950,
+          "sha512": "49e10dcc491a38e47e7d7145168d3bee7a6b50e032f2b2d9f7293da95b7a51c30d9d498cc1ce3fe65cdb8cd16ba8fc38f1d94939274be7b7ef16adbf5a1fadf2",
+          "sha256": "ddfdcfbfd7b722a493f870672976d97ec32aefe7759b2031b37ce552d1c172e3",
+          "sha1": "ba010555227a873e8c4dca0e89270858b19ec732",
+          "md5": "4f1515adffa60b7968500bbdfdb30fb9"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-core",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "kt-extensions",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "reddot",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webview",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rooms_meeting-3.6.302.18.aar",
+          "url": "rooms_meeting-3.6.302.18.aar",
+          "size": 458950,
+          "sha512": "49e10dcc491a38e47e7d7145168d3bee7a6b50e032f2b2d9f7293da95b7a51c30d9d498cc1ce3fe65cdb8cd16ba8fc38f1d94939274be7b7ef16adbf5a1fadf2",
+          "sha256": "ddfdcfbfd7b722a493f870672976d97ec32aefe7759b2031b37ce552d1c172e3",
+          "sha1": "ba010555227a873e8c4dca0e89270858b19ec732",
+          "md5": "4f1515adffa60b7968500bbdfdb30fb9"
+        }
+      ]
+    }
+  ]
+}

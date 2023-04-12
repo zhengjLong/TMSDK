@@ -1,0 +1,88 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "auth",
+    "version": "3.6.302.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "auth-3.6.302.18.aar",
+          "url": "auth-3.6.302.18.aar",
+          "size": 253759,
+          "sha512": "9b447b83f4fc08d8bfaf1eb823b2022db665bdf1bdc9a1d34940f29cb3b1f3064d6810cf836d005feeaac78b102759c7b6931720365486af79b73b6e23d15abf",
+          "sha256": "14143da588f7f22b1c094df1132057cfde0ba11be1e5758134bfb8a484a80051",
+          "sha1": "27a3ce52010dd84588a92335a207221ca16a3bc4",
+          "md5": "f8b52a6bd251caacba59021db82be802"
+        }
+      ]
+    },
+    {
+      "name": "productReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-3.6.302.18.aar",
+          "url": "auth-3.6.302.18.aar",
+          "size": 253759,
+          "sha512": "9b447b83f4fc08d8bfaf1eb823b2022db665bdf1bdc9a1d34940f29cb3b1f3064d6810cf836d005feeaac78b102759c7b6931720365486af79b73b6e23d15abf",
+          "sha256": "14143da588f7f22b1c094df1132057cfde0ba11be1e5758134bfb8a484a80051",
+          "sha1": "27a3ce52010dd84588a92335a207221ca16a3bc4",
+          "md5": "f8b52a6bd251caacba59021db82be802"
+        }
+      ]
+    }
+  ]
+}

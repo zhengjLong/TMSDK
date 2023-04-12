@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "warmup_media",
+    "version": "3.6.302.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "warmup_media-3.6.302.18.aar",
+          "url": "warmup_media-3.6.302.18.aar",
+          "size": 448175,
+          "sha512": "9dba062ee0b31eee58c8431682bd4d9123013ab4a8a4d7368e2566e23f4e1fc987c15713a23b4560b6977a458d886ec1e754f813de0fd6517964e22df955cb6b",
+          "sha256": "680aac785981ef11eaf542b27036bd30cb0472e8291c9125e03361f6b367ffe0",
+          "sha1": "c6c90c202c0f8b4e3420411572cdc0858f11214b",
+          "md5": "e163932e70e8e1940cf1b8062ba0b6cb"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-core",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "kt-extensions",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "reddot",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webview",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "com.tencent.liteav",
+          "module": "LiteAVSDK_Player",
+          "version": {
+            "requires": "9.3.10769"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "warmup_media-3.6.302.18.aar",
+          "url": "warmup_media-3.6.302.18.aar",
+          "size": 448175,
+          "sha512": "9dba062ee0b31eee58c8431682bd4d9123013ab4a8a4d7368e2566e23f4e1fc987c15713a23b4560b6977a458d886ec1e754f813de0fd6517964e22df955cb6b",
+          "sha256": "680aac785981ef11eaf542b27036bd30cb0472e8291c9125e03361f6b367ffe0",
+          "sha1": "c6c90c202c0f8b4e3420411572cdc0858f11214b",
+          "md5": "e163932e70e8e1940cf1b8062ba0b6cb"
+        }
+      ]
+    }
+  ]
+}

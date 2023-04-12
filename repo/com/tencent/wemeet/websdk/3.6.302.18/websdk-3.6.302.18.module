@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "websdk",
+    "version": "3.6.302.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet.third-party",
+          "module": "tbssdk-dynamic",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "websdk-3.6.302.18.aar",
+          "url": "websdk-3.6.302.18.aar",
+          "size": 120060,
+          "sha512": "82da0896776c74214502bc69cb83648f5b1dded1c6ffa3448649d57531b8af6341f2e2619ec640b83de387ee432e92ede9678ba236cff5c51aee2f42e77b9e8e",
+          "sha256": "0804710ed1261cd7e373003c707890e3fe975940952bc95ef485c43698b68389",
+          "sha1": "102775dca224cf14bc48ba839a7ad22465fbc544",
+          "md5": "3e49413d974b55c3a0bc05190ae76760"
+        }
+      ]
+    },
+    {
+      "name": "productReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.wemeet.third-party",
+          "module": "tbssdk-dynamic",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "null"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "websdk-3.6.302.18.aar",
+          "url": "websdk-3.6.302.18.aar",
+          "size": 120060,
+          "sha512": "82da0896776c74214502bc69cb83648f5b1dded1c6ffa3448649d57531b8af6341f2e2619ec640b83de387ee432e92ede9678ba236cff5c51aee2f42e77b9e8e",
+          "sha256": "0804710ed1261cd7e373003c707890e3fe975940952bc95ef485c43698b68389",
+          "sha1": "102775dca224cf14bc48ba839a7ad22465fbc544",
+          "md5": "3e49413d974b55c3a0bc05190ae76760"
+        }
+      ]
+    }
+  ]
+}

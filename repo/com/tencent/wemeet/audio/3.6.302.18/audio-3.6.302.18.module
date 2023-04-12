@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent.wemeet",
+    "module": "audio",
+    "version": "3.6.302.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productMainlandReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audio-3.6.302.18.aar",
+          "url": "audio-3.6.302.18.aar",
+          "size": 463561,
+          "sha512": "d480a6363e8e82e5dad48091cc4b37049ec9a528fd642046cb73d09e7ee50d730b17d555e5bfa6216a1bb44f0607eb1359d1413a6b8a516fbb6b2d14bd7a5c4a",
+          "sha256": "785ef3ab933929d3161d4478354780c47df1c17e4b59019b564204df47db478c",
+          "sha1": "fcadfd751ad13d7c51496ce81498903d86da62e5",
+          "md5": "0782b0bf8e4e0f6b3bdf88d946b7d990"
+        }
+      ]
+    },
+    {
+      "name": "productMainlandReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "module-core",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "kt-extensions",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "common",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "wmp",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "reddot",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        },
+        {
+          "group": "com.tencent.wemeet",
+          "module": "webview",
+          "version": {
+            "requires": "3.6.302.18"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audio-3.6.302.18.aar",
+          "url": "audio-3.6.302.18.aar",
+          "size": 463561,
+          "sha512": "d480a6363e8e82e5dad48091cc4b37049ec9a528fd642046cb73d09e7ee50d730b17d555e5bfa6216a1bb44f0607eb1359d1413a6b8a516fbb6b2d14bd7a5c4a",
+          "sha256": "785ef3ab933929d3161d4478354780c47df1c17e4b59019b564204df47db478c",
+          "sha1": "fcadfd751ad13d7c51496ce81498903d86da62e5",
+          "md5": "0782b0bf8e4e0f6b3bdf88d946b7d990"
+        }
+      ]
+    }
+  ]
+}
